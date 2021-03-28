@@ -76,3 +76,22 @@
 - 2.4 하노이탑 문제
 
 <hr>
+
+|**목록**|**O/X**|**Today's**|**한줄평**|
+|--|--|--|--|
+|세미나|[ △ ]|2장 실습/예제 추가|Seminar Tmrw|
+
+<br>
+
+*2021.03.28 SUN*
+
+### 1. 자료구조와 알고리즘
+- 삽입 정렬
+- 버블 정렬
+- Big(O) Graphh - 상수형/로그형/선형/k차형/지수형
+
+### 2. 순환
+- 꼬리재귀
+- 예제 : power, getLen, printStr, printReverseStr, search, digitSum
+
+<hr>
