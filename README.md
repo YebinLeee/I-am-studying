@@ -1,13 +1,15 @@
 # Today I learned
 ## I-Am-Studying - ing - ing
-### 배운 것의 [목차/제목] 
-
-<hr>
+### Computer Software Engineering 2021-1
 
 
-|**목록**|**O/X**|**Today's**|**한줄평**|
+|**전공 목록**|**O/X**|**Today's**|**한줄평**|
 |--|--|--|--|
-|세미나||PPT|ㅎㅎ|
+|자료구조1||||
+|자료구조1실습||||
+|이산수학||||
+|컴퓨터아키텍쳐||||
+|Cpp||||
 
 <br>
 
