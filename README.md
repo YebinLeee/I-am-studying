@@ -622,22 +622,71 @@ s []|s의 [] 인덱스에 있는 문자 반환 | char c=s[1]	| c='+'|
 <br>
 
 ### 컴퓨터 아키텍처
-#### CH4. 제어 유니트
-- [ ] 4.1 제어 유니트 기능
-- [ ] 4.2 제어 유니트 구조
-- [ ] 4.3 마이클명령어 형식
-- [ ] 4.4 마이크로프로그래밍
-- [ ] 마이크로프로그램의 순서제어
+
+#### CH4. 제어 유니트 (Control Unit)
+
+- [x] 4.1 제어 유니트 기능 <br>
+- [x] 4.2 제어 유니트 구조 <br>
+        - 명령어 해독기(Instruction Decoder) <br>
+                - 사상 (mapping) 방식 <br>
+        - 제어 주소 레지스터(CAR: Control Address Register) <br>
+        - 제어 기억장치(Control Memory) <br>
+        - 제어 버퍼 레지스터(CBR: Control Buffer Register) <br>
+        - 서브루틴 레지스터(SBR: Subroutine Register) <br>
+        - 순서 제어 모듈(Sequencing Module) <br>
+- [x] 4.3 마이크로 명령어 형식 <br>
+        - 연산 필드 1, 2 / 조건(CD) 필드 / 분기(BR) 필드 / 주소(AD) 필드 <br> 
+- [x] 4.4 마이크로프로그래밍 <br>
+        - 인출 사이클 루틴 <br>
+        - 간접 사이클 루틴 <br>
+        - 실행 사이클 루틴 <br>
+        - 사상 방식 이용 <br>
+- [x] 마이크로프로그램의 순서제어 <br>
+        - 순서 제어(Sequencing)  / MUX1, MUX2 <br>
+        - 주소 선택 회로 <br>
+        - 제어 신호의 생성 <br>
+                - 수직적 마이크로프로그래밍 (Vertical MicroProgramming) <br>
+                - 수평적 마이크로프로그래밍 (Horizontal MicroProgramming) <br>
+
+
 
 #### CH5. 기억장치
-- [ ] 5.1 기억장치 분류와 특성
-- [ ] 5.2 계층적 기억장치시스템
-- [ ] 5.3 반도체 기억장치
-- [ ] 5.4 기억장치 모듈 설계
-- [ ] 5.5 캐시 메모리
-    - [ ] 5.5.1 캐시 용량
-    - [ ] 5.5.2 인출 방식
-    - [ ] 5.5.3 사상 방식
+- [x] 5.1 기억장치 분류와 특성 <br>
+        - 기억 장치 액세스 <br>
+                - 1. 순차적 액세스(sequential access) <br>
+                - 2. 직접 액세스(direct access) <br>
+                - 3. 임의 액세스(random access) <br>
+                - 4. 연관 액세스(associative access) <br>
+        - 기억장치 설계 <br>
+                - 용량/속도 <br>
+                - 전송 단위(unit of transfer) <br>
+                - 주소지정 단위(addressable unit) <br>
+        - 액세스 속도 파라미터 <br>
+                - 액세스 시간(access time) <br>
+                - 기억 장치 사이클 시간(memory cycle time) <br>
+                - 데이터 전송률(data transfer rate) <br>
+        - 기억 장치 제조 재료에 따른 유형 <br>
+                - 반도체 기억장치(semiconductor memory) <br>
+                - 자기-표면 기억장치(magnetic-surface memory) <br>
+        - 데이터를 저장하는 성질에 따른 유형 <br>
+                - 휘발성(volatile) / 비휘발성(nonvolatile) 메모리 <br>
+- [x] 5.2 계층적 기억장치시스템 <br>
+        - 내부 기억 장치 / 외부 기억 장치 <br>
+        - 캐시 메모리 / 디스크 캐시 <br>
+- [x] 5.3 반도체 기억장치 <br>
+        - RAM(Random Access Memory) - DRAM, SDRAM <br>
+        - ROM(Read Only Memory) - PROM< EPROM< EEPROM, flash memory <br>
+- [x] 5.4 기억장치 모듈 설계 <br>
+        - 병렬 접속 <br>
+        - 직렬 접속 <br>
+        - 기억장치 모듈의 설계 순서 <br>
+                - 기억 장치 주소 표(memory address map) <br>
+- [x] 5.5 캐시 메모리 <br>
+    - [x] 5.5.1 캐시 용량 <br>
+    - [x] 5.5.2 인출 방식 <br>
+                - 요구 인출(demand fetch) 방식 <br>
+                - 선인출(prefetch) 방식 <br>
+    - [ ] 5.5.3 사상 방식 <br>
     - [ ] 5.5.4 교체 알고리즘
     - [ ] 5.5.5 쓰기 정책
     - [ ] 5.5.6 다중 캐시
