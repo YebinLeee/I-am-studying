@@ -968,15 +968,31 @@ s []|s의 [] 인덱스에 있는 문자 반환 | char c=s[1]	| c='+'|
 #### CH6 부분 순서 관계와 부울 대수
 - [x] 6.1 부분 순서 관계
     - 부분 순서 관계(partially ordered relation) - 반사, 반대칭, 추이 관계 
-    - 전순서 관계(rortally ordered relation) - 모든 원소의 비교 가능(totally comparable)
+    - 전순서 관계(tortally ordered relation) - 모든 원소의 비교 가능(totally comparable)
     - 곱 부분 순서 관계(product partial ordered relation)
     - 사전식 순서(lexicographic order)
     - 위상 정렬(topological sorting) 
-- [ ] 6.2 부분 순서 집합의 상한과 하한
-- [ ] 6.3 격자
-- [ ] 6.4 특별한 형태의 격자
-- [ ] 6.5 부울 대수
-- [ ] 6.6 응용 : 20비트 가산기의 설계
+- [x] 6.2 부분 순서 집합의 상한과 하한
+    - 극대/극소 원소(maximal/minimal element), 최대/최소 원소(greatest/least element)
+    - 최대원소 I(단위원), 최소원소 0(영원)
+    - 상계/하계(upper/lower bound)
+    - 상한/하한(LUB-least upper bound:supremum / GLB-greatest lower bound:infimum)
+- [x] 6.3 격자
+    - 격자(lattice)
+    - 격자의 성질
+        - 멱등법칙(dempotenet law), 교환법칙(commutative), 결합(associative), 흡수(absortion) 법칙
+- [x] 6.4 특별한 형태의 격자
+    - 부분 격자 - 동형 사상(isomorphism)
+    - 완비 격자(complete lattice)
+    - 유계 격자(bounded lattice)
+    - 분배 격자(distributive lattice), 비분배 격자
+    - 여격자(complemented lattice), 여원(complement element)
+- [x] 6.5 부울 대수
+    - 부울 대수(boolean algebra) : 여격자, 분배 격자
+- [x] 6.6 응용 : 2-비트 가산기의 설계
+    - 반가산기(half adder)
+        - 올림수(carry): AND연산
+        - 더하기: XOR 연산
 <br>
 
 
